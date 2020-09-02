@@ -27,7 +27,31 @@
 					<li>Excellent <strong>math</strong> support &mdash; seamlessly transition between source and rendered math, thanks to <a href="https://katex.org/docs/supported.html">KaTeX</a> and <a href="https://github.com/benrbray/prosemirror-math"><code>prosemirror-math</code></a></li>
 				</ul>
 				<div id="under-construction">
-					<span>In active development!  Beta version coming soon.</span>
+					<div class="signup-box">
+						<div>
+							<div>
+								<p>In active development!&nbsp;&nbsp;Sign up to be notified when the <strong>Noteworthy public beta</strong> is ready!</p>
+							</div>
+							<form action="https://app.mailerlite.com/webforms/submit/c5q5g4" data-code="c5q5g4" method="post" target="_blank">
+								<input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+								<input type="hidden" name="ml-submit" value="1">
+								<button type="submit" class="primary">Subscribe!</button>
+								<button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"><div></div><div></div><div></div><div></div></div> </button>
+							</form>
+						</div>
+						<div class="subscribe-success" style="display:none">
+							<div class="success-content">
+								<h4>Thank you!</h4>
+								<p>You have successfully joined our subscribers list.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Tracking -->
+					<script>
+					function ml_webform_success_2606114(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-2606114 .row-success").show(),r(".ml-subscribe-form-2606114 .row-form").hide()}
+					</script>
+					<img src="https://track.mailerlite.com/webforms/o/2606114/c5q5g4?v1599075943" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+					<script src="https://static.mailerlite.com/js/w/webforms.min.js?va4ec89777e872df8868e9551094f193e" type="text/javascript"></script>
 				</div>
 			</div>
 		</div>
@@ -46,6 +70,166 @@
 		<h3>Display Math</h3>
 
 		<img src="img/prosemirror-math_display.gif">
+
+				<h2>Core Principles</h2>
+		<ul>
+			<li>
+				<p><strong>Edit Locally and Offline:</strong></p>
+			</li>
+			<li>
+				<p><strong>Works with Your Documents:</strong> Noteworthy can read your existing Markdown and plain text documents, no problem!</p>
+			</li>
+			<li>
+				<p><strong>Out of Your Way:</strong> Noteworthy doesn’t impose its own document format on you. Write your notes in Markdown, like you always have, incorporating as few or as many Noteworthy features as you like.</p>
+			</li>
+			<li>
+				<p><strong>Free as in Beer:</strong> Use the offline version of Noteworthy free of charge, forever.</p>
+			</li>
+			<li>
+				<p><strong>Free as in Speech:</strong> Noteworthy is open-source and released under an AGPL-3.0 license.</p>
+			</li>
+		</ul>
+
+		<h2>Goals</h2>
+		<ul>
+			<li>
+				<p><strong>Competition:</strong> Noteworthy is a direct competitor to paid note-taking software like <span class="wikilink">Typora</span> and <span class="wikilink">Notion</span>, as well as to closed-source editors like <span class="wikilink">Obsidian</span>,
+					<span class="wikilink">Notable</span>, and <span class="wikilink">MarkText</span>.</p>
+			</li>
+			<li>
+				<p><strong>Modularity &amp; Code Re-use:</strong> Built using TypeScript with re-use in mind. Don’t like Noteworthy but don’t want to start from scratch on your own editor? Strip it down for parts! Re-use the file explorer, the cross-referencing
+					plugin, and all the boilerplate that’s distracting you from implementing new features.</p>
+				<ul>
+					<li>
+						<p>Alternatively, check out [custom editors] in <span class="wikilink">vs-code</span> !</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h2>Non-Goals</h2>
+		
+		<ul>
+			<li>
+				<p><strong>Not a Roam-like:</strong> The Roam Research editor has inspired many other projects, including <span class="wikilink">Athens Research</span>, <span class="wikilink">thinktool</span>, and <span class="wikilink">RemNote</span>. The
+					way I see it, Roam-like editing asks, <em>“how can I turn this graph into a text editor?”</em>, while projects like Noteworthy and Obsidian ask, <em>“how can I turn this text editor into a graph?”</em>.  Noteworthy doesn't impose any specific structure on your documents beyond basic Markdown.</p>
+			</li>
+		</ul>
+
+		<h2>Features</h2>
+		<ul>
+			<li>
+				<p><strong>First-class Math:</strong> Create and edit math as part of the text itself, using KaTeX.</p>
+			</li>
+			<li>
+				<p><strong>Markdown-ish:</strong> Noteworthy can read and understand any Markdown file, but there are some key differences. More on this below.</p>
+			</li>
+			<li>
+				<p><strong>Works with Your Documents:</strong> Noteworthy can read your existing Markdown and plain text documents, no problem!</p>
+			</li>
+			<li>
+				<p><strong>Bidirectional Links:</strong></p>
+			</li>
+			<li>
+				<p><strong>Everything is a Tag:</strong></p>
+			</li>
+			<li>
+				<p><strong>Extensive Tag System:</strong> Easily create tags and organize them however you like. Organize tags into hierarchies, or don’t—it’s your call.</p>
+			</li>
+			<li>
+				<p><strong>Knowledge Graph:</strong></p>
+			</li>
+			<li>
+				<p><strong>Document Schema:</strong> Define a pre-set structure for certain types of documents. Display and edit document metadata as part of the text itself.</p>
+			</li>
+			<li>
+				<p><strong>Custom Themes:</strong> Use CSS themes to customize *every aspect *of your documents.</p>
+			</li>
+			<li>
+				<p><strong>Citations:</strong> Easily import / export BibTeX citations.</p>
+			</li>
+			<li>
+				<p><strong>Export:</strong> Export HTML / LaTeX / plain text directly, or connect to <span class="wikilink">pandoc</span> for even more export formats.</p>
+			</li>
+		</ul>
+
+		<h2>Markdown++ Document Format</h2>
+
+		<ul>
+			<li>
+				<p>Noteworthy can read and understand any document adhering to <strong>CommonMark</strong> spec, but may interpret some symbols differently.</p>
+			</li>
+			<li>
+				<p>Noteworthy-flavored Markdown attempts to be more expressive by eliminating redundancies from CommonMark:</p>
+				<ul>
+					<li>
+						<p>For example, Noteworthy distinguishes between <code>*italic*</code> and <code>_underlined_</code> text.</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p>When importing a file, Noteworthy preserves the content of your document, but not necessarily your original expression of that content when you save.</p>
+				<ul>
+					<li>
+						<p>For example, CommonMark defines more than one way to write headings. When saving, Noteworthy only uses the <code># heading</code> syntax.</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p>Further, some features of Noteworthy rely on non-standard extensions to the Markdown syntax which are not part of CommonMark</p>
+			</li>
+		</ul>
+
+		<h2>Not Planned, but Maybe?</h2>
+
+		<ul>
+			<li>
+				<p><strong>Encrypted Document Format:</strong> Noteworthy will always respect your privacy and access your files responsibly. However, documents created by Noteworthy are stored in plain text, and there is no way to prevent other programs
+					from reading them.</p>
+				<ul>
+					<li>
+						<p>In the future, may add the option to encrypt with <span class="wikilink">gpg</span> , similar to <span class="wikilink">org-roam</span>.</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h2>Monetization Promise</h2>
+		<ul>
+			<li>
+				<p>There are currently no plans to monetize Noteworthy, but who knows what the future will hold? Often, software that begins as an open-source side project is later closed-off and placed behind a paywall (even worse, a subscription model!).</p>
+			</li>
+			<li>
+				<p>However, doing so would directly conflict with the core principles of this project. Noteworthy <em>would not have been possible</em> without the help of outstanding open-source projects like ProseMirror, and I feel a responsibility to
+					keep Noteworthy freely available. The desktop version of Noteworthy will <strong>always</strong> be free and open source.</p>
+			</li>
+			<li>
+				<p>If, in the future, Noteworthy becomes more than a side project, I can imagine a paid version that allows for features like cloud sync and collaborative editing. Since Noteworthy works with your local files, you’ll always be free to use
+					your own cloud storage solution like <span class="wikilink">SyncThing</span> or <span class="wikilink">Google Drive</span> .</p>
+			</li>
+		</ul>
+
+		<h2>Alternatives to Noteworthy</h2>
+		<ul>
+			<li>
+				<p>Want similar features? Try <span class="wikilink">Obsidian</span>, <span class="wikilink">Zettlr</span>, <span class="wikilink">Notable</span>, or <span class="wikilink">Typora</span>.</p>
+			</li>
+			<li>
+				<p>Want online storage and collaborative editing? Try <span class="wikilink">Notion</span>.</p>
+			</li>
+			<li>
+				<p>Want interconnectivity to the extreme? Use <span class="wikilink">Athens-research</span>, <span class="wikilink">thinktool</span>, <span class="wikilink">RemNote</span> for free, or pay for <span class="wikilink">Roam</span>.</p>
+			</li>
+			<li>
+				<p>Need help remembering what you learn? Try <span class="wikilink">RemNotes</span> !</p>
+			</li>
+			<li>
+				<p>Sick of Electron? Try the <span class="wikilink">Foam Research</span> extension for <span class="wikilink">vs-code</span>.</p>
+			</li>
+			<li>
+				<p>Emacs User? Try <span class="wikilink">org-roam</span> .</p>
+			</li>
+		</ul>
 
 	</div>
 
