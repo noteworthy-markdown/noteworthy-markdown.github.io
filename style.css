@@ -72,7 +72,7 @@ h2 span {
 
 .signup-box {
 	display: inline-block;
-	max-width: 50vw;
+	max-width: 24em;
 	margin: 0 auto;
 	padding: 1em;
 	background-color: rgb(255, 236, 188);
